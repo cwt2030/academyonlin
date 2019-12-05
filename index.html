@@ -1,98 +1,187 @@
-<!DOCTYPE html >
-<html >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-  <meta charset="UTF-8">
-<title>
-	تعلم البرمجة اونلاين
-</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<style>
+          <!DOCTYPE HTML5 >
+          <html >
+          <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta charset="UTF-8">
+              <!--link for style CSS -->
+              <link rel="stylesheet" type="text/css" href="css/style.css">
+            <!--link for javascript  -->
+            <script src=javascript.js></script> 
+            <!--link  sheet Google Font APIS -->
 
-#down {width:101%;height:250px;background:#0a243e ;  ;margin-left:-7px  ;}
- #head { width:101%;height:150px;background:#0a243e ; margin-left:-7px ; margin-top:-20px }
- #head1 { width:101%;height:50px;background:#0a243e ; margin-left:-7px ;   }
-
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body    link=#fefefe  >
-
-<div id=head  >
-<h1 align=center style=color:#B9FACD > www.academyonlin.com  مرحبا بك في </h1>
-<h1  align=center style=color:#B9FACD>	تعلم البرمجة اونلاين </h1>
-</div>
-
-<br>
-
-<div id=head1  >
-  <table width=100% dir=rtl>
-
-    <tr >
-    <td align=center>
-<a href="index.html" style=color:#B9FACD >    1 الرئيسية   </a>||
-</td>
-  <td align=center>
-   <a href="links1.html" style=color:#B9FACD >   1التدريب   </a>||
-</td>
-<td align=center >
-<a href="links.html" style=color:#B9FACD >مواقع مهمة للمبرمج   </a>||
-</td>
-  <td align=center>
-  <a href="cnt.html" style=color:#B9FACD > اتصل بنا  </a>|||
-</td>
-  <td align=center>
-  <a href="about.html" style=color:#B9FACD >من نحن ؟   </a>
-</td>
-</tr>
-
-</table>
-  </div>
-
-<h3 align=center>الدروس المتاحة </h3>
-
-<table border="0" align=center width=101%  height=400px  margin-righ=-8px  cellspacing=20  >
-<tr align=center  >
-<td  > <a href="html.html" target="_blank"   >   <img src="amg/HTML1.png" > </a>  </td>
-<td  > <a href="css.html"target=_blank ><img src="amg/css.png" </td> </a>
-</tr>
- <tr align=center >
- <td ><a href="Javascript.html" target=_blank   > <img src="amg/javascript.png" ></a> </td>
- <td> <a href="java.html"target=_blan ><img src="amg/java.png" </td></a>
- </tr>
- <tr align=center >
-   <td> <a href="SQL.html"target=_blan ><img src="amg/SQL.png" </td></a>
-
- <td ><a href="Python.html" target=_blank   > <img src="amg/Python.png" ></a> </td>
- </tr>
-
- </table>
+            <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
 
 
-<!--
--->
-<div id=down align=center vlink=#ffffff  >
+          <title>
+            تعلم البرمجة اونلاين
+          </title>
+          
+          </head>
 
-  <a href="cnt.html" style=color:#B9FACD > اتصل بنا  </a>
-  <br >
-  <br >
-  <br >
-  <br >
+          <body >
 
-  <a  href="mailto:support@academyonlin.com" style=color:#B9FACD> support@academyonlin.com    راسلنا على الاميل  التالي  </a>
-  <br >
-  <br >
+          <header >
+            <div class="head">
+                <a href="rigest.html"><input type="button" value="التسجيل "></a>
+                <form name="f11">
+               <input type="password" value="123" name="pass">
+              <input type="text" value="ali" name="username">
+              <input type="button" name="ok" value="Loge in" onclick="checkuser()">
 
-  <br >
-  <h1 align=center  ><a href="http://academyonlin.com" align=center  target="_blank" style=color:#B9FACD > www.academyonlin.com </a></h1>
+            </form>
+
+              
+          <!-- Time  program block -->
+                <p id="p1"> </p>
+                <script>
+                {
+                      day=new Date();
+                      document.getElementById("p1").innerHTML +=day ;
+                }
+              </script>      
+
+            </div>
+            <div class="head1">
+            <h1>مرحبا بك في موقع تعليم اللغات اونلاين </h1>
+            <h1>welcome to coding </h1>
+          </div>
+          <a href="index.html"><input type="button" value="الصفحة الرئيسية "></a>
+
+          </header>
+            
+          <nav  >
+              <input type="text">
+              <input type="button" value="بحث " name="ok">
+          <a href="index.html" style=color:#B9FACD >    الرئيسية   </a>
+          
+            
+            <a href="links1.html" style=color:#B9FACD >   التدريب   </a>
+          
+          
+          <a href="links.html" style=color:#B9FACD >مواقع مهمة للمبرمج   </a>
+          
+            
+            <a href="cnt.html" style=color:#B9FACD > اتصل بنا  </a>
+
+            
+            <a href="about.html" style=color:#B9FACD >من نحن ؟   </a>
+          
+            
+          </nav>
+     <div>
+
+              <div class="div7">
+                  <p >  (تغيير الصوره بالضغط عليها )             </p>
+
+                   
+
+                  <img  src="1.png" width="100" height="100"  onclick="chingeImg(this)"  >
+                       
+                  
+                   
+   </div>
+
+
+          <section>
+            <div class="Course">
+          <h3>الدروس المتاحة  في لغات البرمجة </h3>
+          
+          
+          <a href="html.html" target="_blank"   >   <img src="amg/HTML1.png" > </a>  
+          <a href="css.html"target=_blank ><img src="amg/css.png" > </a>
+
+
+          <a href="Javascript.html" target=_blank   ></a> <img src="amg/javascript.png" ></a> 
+            <a href="java.html"target=_blan ><img src="amg/java.png" ></a>
+          
+            <h4> <a href="more.html" target=_blank   ><input  type="button"  value="هنا"> </a>      لمزيد من الدروس في اللغات الضغط  </h4>
+
+           
+
+        </div>
+    <div class="Exampljs" >
+            <h4>Javascript  امثله عملية في لغة </h4>
+       <div class="div1">
+                <p >   for برنامج المعدل باستخدام  </p>
+
+                <p >  ادخل المعدل من   0 الى 100 </p>
+
+          <form name="f1">
+                  <input type="text" name="z" >
+                          <br>                         <br>
+
+                <input type="button" name="ok" value="اعرض  النتيجة" onclick="fun()">
+                <h3 id="p2">  التقدير:</h3>
+          </form>
+                        <br>
+          </div>
+          <div class="div2">
+              <p >  برنامج الحاسبه باستخدام  </p>
+      
+      
+              <p > ادخل الرقم الاول </p>
+             
+         <form name="f2">
+                 <input type="text" name="num1" >
+                 <br>
+                      <select name="op">
+                              <option value="+">جمع</option>
+                              <option value="-">طرح</option>
+                              <option value="/">قسمه</option>
+                              <option value="*">ضرب</option>
+      
+                      </select>
+                      <br>
+                      <p > ادخل الرقم الثاني  </p>
+      
+                 <input type="text" name="num2" >
+                 <br>
+                 <input type="button" name="ok" value="النتيجة" onclick="Calculator()">
+                      <div class="p">
+                       <p id="g">الناتج: </p>
+                      </div>
+      
+         </form>
+      
+      
+      </div>
+      <h4> <a href="Exampljs.html" target=_blank   ><input  type="button"  value="هنا"> </a>      الضغط الرجاءJavascript  لمزيد من امثله عملية في لغة </h4>
+
+ 
+
+    </div>
+   
+  </section>
+
+          <!--             foter       -->
+          <footer  >
+               
+                  <div class=foter2 >
+                  <h1>حمل تطبيق  وتعلم البرمجة من جوالك </h1>
+                  <h4> حمل تطبيق  </h4>
+                          <button >
+                                  <img class="img11" src="amg/google.png">
+                          </button>
+                          
+                          <button >
+                              <img class="img11"src="amg/apple.png">
+                          </button>
+                      </div>
+                      
+                          <img class="img2" src="amg/code.jpeg">
+                     
+      
+
+          </footer>
+          <div class="else">
+          <br> 
+          <a href="cnt.html"  > اتصل بنا  </a>
+          <br>
+          <a href="https://www.salhowaymel.info/"   > @Salhowaymel  برمجة بواسطة   </a>
+        </div>
 
 
 
-</div>
+          </body>
 
-
-
-</body>
-
-</html>
+          </html>
